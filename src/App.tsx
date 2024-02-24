@@ -8,10 +8,13 @@ function App() {
 
   return (
     <>
-      <h1>
-        Een React applicatie die automatisch gepubliceerd wordt op GitHub Pages
+      <h1 className="mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-6xl dark:text-white">
+        Automatisch gepubliceerd op{" "}
+        <span className="text-pink-500">GitHub Pages</span>
       </h1>
-      <div>Dankzij een YAML bestand is er nu een pipeline beschikbaar.</div>
+      <div className="mt-5 text-blue-500">
+        Dankzij een YAML bestand is er nu een pipeline beschikbaar.
+      </div>
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
